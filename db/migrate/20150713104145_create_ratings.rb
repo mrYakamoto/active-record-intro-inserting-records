@@ -1,5 +1,6 @@
 class CreateRatings < ActiveRecord::Migration
   def change
+    # fake comment
     create_table :ratings do |t|
       t.integer :coolness
       t.integer :cuteness
